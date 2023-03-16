@@ -178,23 +178,24 @@ img {
   cursor: pointer;
 }
 .divider .divider-one {
-  background: #C14000;//
+  background: #C14000;
 }
 .divider .divider-two {
   background: #009988;
 }
 .divider .divider-three {
-  background: #FDBF56;//#FFA500;
+  background: #FDBF56;
 }
 .divider .divider-four{
-	background: #5B4C93;//#D22030;
+	background: #5B4C93;
 }
 .divider .divider-five{
-	background: #2CA5DA;//#92A1CD;
+	background: #2CA5DA;
 }
 .divider .divider-six{
-	background: #E74A37; //#55565A; //#A9A8A9;//
+	background: #E74A37; 
 }
+
 .divider .col-md-4 {
   padding: 20px;
   margin: 0px;
