@@ -116,25 +116,44 @@
 					<h3>Data Modeling</h3>
 					<p>
 						Data modeling principle were used throughout the projectthe modelling process began with the data
-						base choice. The team decided on firebase for its json like structure and support from google.
+						base choice. The team decided on firestore for its json like structure and support from google.
 					</p>
-					<p>The team followed design principles outlined by google and <a href="https://fireship.io/lessons/firestore-nosql-data-modeling-by-example/"> jeff Delaney</a> in his data moddeling article.</p>
+					<p>The team followed design principles outlined by google and <a href="https://fireship.io/lessons/firestore-nosql-data-modeling-by-example/"> Jeff Delaney</a> in his data moddeling article:</p>
 					<ul>
 						<li>
-							queries must be fast 
+							Queries must be fast. 
 						</li>
 						<li>
-							collections must be fast
+							Collections can be large.
 						</li>
 						<li>
-							
+							Documents must be small ( < 1MB).
+						</li>
+						<li>
+							Data duplication is OK.
 						</li>
 					</ul>
+					<p>even though firestore is a NoSQL database some principles of relational modelling were employed</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./images/data_model.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p>
+						the diagram illustrates the base collections we made: users, activities, and cards.
+						The fields within the collection tables
+						represent the document data models.  
+					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
 					<h3>System design & Architecture</h3>
+					<p>throughout the course of the project lifecycle we learned the importance of system design.</p>
 				</div>
 			</div>
 		</div>
@@ -159,7 +178,7 @@
 					<p><i class="fa fa-globe"></i><a href="https://github.com/blbarr01/EnglishLearningInitiative">ELLI GitHub</a></p>
 				</div>
 
-				<!-- <div class="col-md-4 col-sm-5">
+				<div class="col-md-4 col-sm-5">
 					<ul class="social-icons">
 						<li><a href="https://www.facebook.com/calstatenorthridge/" class="fa fa-facebook"></a></li>
 						<li><a href="https://twitter.com/csunorthridge" class="fa fa-twitter"></a></li>
@@ -167,7 +186,7 @@
 								class="fa fa-linkedin-square"></a></li>
 						<li><a href="https://www.instagram.com/csun_edu/" class="fa fa-instagram"></a></li>
 					</ul>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</footer>
